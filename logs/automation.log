@@ -1,0 +1,119 @@
+2024-12-10 03:44:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 03:44:36 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 03:44:36 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 03:44:39 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 03:44:52 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 03:44:52 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 03:44:56 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 03:45:04 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 03:45:07 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 03:45:26 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 03:45:29 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 03:45:43 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 03:45:58 INFO  CreateCitizenAccount:304 - ***** Account created , Please try to login now  ****
+2024-12-10 03:52:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 03:52:38 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 03:52:38 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 03:52:41 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 03:52:54 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 03:52:54 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 03:52:58 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 03:53:06 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 03:53:08 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 03:53:27 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 03:53:30 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 03:53:45 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 03:58:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 03:59:02 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 03:59:02 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 03:59:06 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 03:59:18 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 03:59:18 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 03:59:22 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 03:59:30 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 03:59:32 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 03:59:51 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 03:59:55 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 04:00:10 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 04:05:44 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 04:05:54 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 04:05:54 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 04:05:57 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 04:06:10 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 04:06:10 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 04:06:14 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 04:06:22 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 04:06:24 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 04:06:43 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 04:06:46 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 04:07:01 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 04:14:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 04:14:13 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 04:14:13 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 04:14:17 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 04:14:29 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 04:14:29 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 04:14:33 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 04:14:41 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 04:14:43 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 04:15:02 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 04:15:06 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 04:15:21 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 04:15:36 INFO  CreateCitizenAccount:304 - ***** Account created , Please try to login now  ****
+2024-12-10 04:16:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-10 04:17:06 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 04:17:06 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 04:17:09 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 04:17:22 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 04:17:22 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 04:17:26 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 04:17:34 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 04:17:36 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 04:17:55 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 04:17:58 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 04:18:12 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 04:49:17 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 04:49:17 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 04:49:20 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 04:49:36 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 04:49:36 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 04:49:40 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 04:49:48 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 04:49:50 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 04:50:09 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 04:50:12 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 04:50:27 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 04:50:42 INFO  CreateCitizenAccount:304 - ***** Account created , Please try to login now  ****
+2024-12-10 04:50:55 INFO  CreateCitizenAccount:318 - ***** Logged in to the account  ****
+2024-12-10 04:51:03 INFO  CreateCitizenAccount:326 - ***** Account Verified  ****
+2024-12-10 04:58:25 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 04:58:25 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 04:58:28 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 04:58:41 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 04:58:41 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 05:01:11 INFO  CreateCitizenAccount:58 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-10 05:01:11 INFO  CreateCitizenAccount:63 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-10 05:01:14 INFO  CreateCitizenAccount:76 - ***** Entering Mailosaur email id  ****
+2024-12-10 05:01:27 INFO  CreateCitizenAccount:116 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-10 05:01:27 INFO  CreateCitizenAccount:121 - ***** OTP is verified ****
+2024-12-10 05:01:30 INFO  CreateCitizenAccount:137 - ***** Entering personal info  ****
+2024-12-10 05:01:39 INFO  CreateCitizenAccount:149 - ***** Entering username  ****
+2024-12-10 05:01:41 INFO  CreateCitizenAccount:154 - ***** Entering Password  ****
+2024-12-10 05:02:00 INFO  CreateCitizenAccount:220 - ***** Accepting Terms and Conditions ****
+2024-12-10 05:02:03 INFO  CreateCitizenAccount:226 - ***** Captcha is verified ****
+2024-12-10 05:02:18 INFO  CreateCitizenAccount:289 - ***** Create Account button is enabled  ****
+2024-12-10 05:02:33 INFO  CreateCitizenAccount:304 - ***** Account created , Please try to login now  ****
+2024-12-10 05:02:46 INFO  CreateCitizenAccount:318 - ***** Logged in to the account  ****
+2024-12-10 05:02:55 INFO  CreateCitizenAccount:326 - ***** Account Verified  ****

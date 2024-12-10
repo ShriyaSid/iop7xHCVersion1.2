@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testBase.AccountLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkLogin"/>
+          <include name="create7XAccount"/>
+        </methods>
+      </class> <!-- testBase.AccountLoginTest -->
+      <class name="testBase.OhioIdOTPTest">
+        <methods>
+          <include name="create7XAccount"/>
+        </methods>
+      </class> <!-- testBase.OhioIdOTPTest -->
+      <class name="testBase.ForgotPassword">
+        <methods>
+          <include name="setup"/>
+          <include name="checkForgotPassword"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testBase.ForgotPassword -->
+      <class name="testBase.ForgotUsernameOHID">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkForgotUsernameOHID"/>
+        </methods>
+      </class> <!-- testBase.ForgotUsernameOHID -->
+      <class name="testBase.CreateCitizenAccount">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="create7XAccount"/>
+        </methods>
+      </class> <!-- testBase.CreateCitizenAccount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
