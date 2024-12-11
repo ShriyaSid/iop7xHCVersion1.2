@@ -40,22 +40,25 @@ public class ForgotUsernameOHID extends TestBase implements ITestListener{
 			@Test()
 			public void checkForgotUsernameOHID() throws InterruptedException, IOException, MailosaurException {
 				
-			OhioIdOTPTest.captureName(driver,"Forgot username or password");
+			//OhioIdOTPTest.captureName(driver,"Forgot username or password");
+			logger.info("***** Clicking on Forgot your OHID or password option  ****");
 			driver.findElement(By.linkText("Forgot your OHID or password?")).click();
 			
 			Thread.sleep(3000);
 			
 			driver.getTitle();
-			OhioIdOTPTest.captureName(driver,"Account Recovery - Choose your option");
+			//OhioIdOTPTest.captureName(driver,"Account Recovery - Choose your option");
 			Thread.sleep(3000);
 			//Choose your option
 			OhioIdOTPTest.captureName(driver,"Account Recovery - Forgot OHIO ID");
+			logger.info("***** Choosing Forgot OHIO ID option ****");
 			driver.findElement(By.xpath("//*[@id='chabot-primary-options']/div[2]/button[1]")).click();
 			Thread.sleep(3000);
 			//enter your mail id 
+			logger.info("***** Entering email id  ****");
 			driver.findElement(By.xpath("//input[@id='custom-input-email']")).sendKeys(super.emailId);
 			Thread.sleep(2000);
-			OhioIdOTPTest.captureName(driver,"Enter your email id");
+			//OhioIdOTPTest.captureName(driver,"Enter your email id");
 			driver.findElement(By.xpath("//*[@id='custom-input-email-container']//button[@type='submit']")).click();
 			OhioIdOTPTest.captureName(driver,"Can we help with anything else");
 			Thread.sleep(8000);

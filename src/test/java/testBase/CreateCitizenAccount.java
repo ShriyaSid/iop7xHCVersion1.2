@@ -45,10 +45,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 public class CreateCitizenAccount extends TestBase implements ITestListener{
 
 	
-	
-   
-    
-	
+
    
 	
 	@SuppressWarnings("deprecation")
@@ -61,7 +58,7 @@ public class CreateCitizenAccount extends TestBase implements ITestListener{
 		
 		//open URL
 		logger.info("***** Launching Homepage and clicking on CreateOHID Account Button  ****");
-		OhioIdOTPTest.captureName(driver,"Homepage");
+		
 		
 		System.out.println("Page title is: " +driver.getTitle());
 		
@@ -73,13 +70,13 @@ public class CreateCitizenAccount extends TestBase implements ITestListener{
 		//Prints the page title
 		System.out.println("Page title is: " +driver.getTitle());
 		System.out.println("Email ID is " +emailId);
-		logger.info("***** Entering Mailosaur email id  ****");
+		
 		//Entering the mailosaur generated email id in the textboxes email address & confirm email address
 		
 		driver.findElement(By.xpath("//*[@id='user-email']")).sendKeys(emailId);
 		
 		driver.findElement(By.xpath("//*[@id='user-confirm-email']")).sendKeys(emailId);
-		OhioIdOTPTest.captureName(driver,"EmailVerification");
+		
 		Thread.sleep(3000);
 		
 		
@@ -130,9 +127,9 @@ public class CreateCitizenAccount extends TestBase implements ITestListener{
 	   driver.getTitle();
 	    
 	    // Enters personal info
-	   driver.findElement(By.xpath("//*[@id='user-firstname']")).sendKeys(FName);
-	   driver.findElement(By.xpath("//*[@id='user-lastname']")).sendKeys(LName);
-	   driver.findElement(By.xpath("//*[@id='user-dob']")).sendKeys("08031996");
+	   driver.findElement(By.xpath("//*[@id='user-firstname']")).sendKeys(p.getProperty("fName"));
+	   driver.findElement(By.xpath("//*[@id='user-lastname']")).sendKeys(p.getProperty("lName"));
+	   driver.findElement(By.xpath("//*[@id='user-dob']")).sendKeys(p.getProperty("dob"));
 	   OhioIdOTPTest.captureName(driver,"PersonalInfo");
 	   logger.info("***** Entering personal info  ****");
 	   Thread.sleep(3000);
@@ -143,9 +140,9 @@ public class CreateCitizenAccount extends TestBase implements ITestListener{
 	    
 	    //Enters username
 	    
-	    driver.findElement(By.xpath("//*[@id='username']")).sendKeys(userName);
-	    System.out.println("Username entered:" +userName);
-	    OhioIdOTPTest.captureName(driver,"Pick a username");
+	    driver.findElement(By.xpath("//*[@id='username']")).sendKeys(p.getProperty("userName"));
+	    System.out.println("Username entered:" +p.getProperty("userName"));
+	    
 	    logger.info("***** Entering username  ****");
 	    Thread.sleep(2000);
 	    driver.findElement(By.xpath("//*[@id='create-account-next']")).click();
@@ -208,7 +205,7 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
 	    js.executeScript("window.scrollBy(0,350)", "");
 	    Thread.sleep(2000);
-	    OhioIdOTPTest.captureName(driver,"Skip Account Recovery");
+	   
 	    driver.findElement(By.xpath("//a[@id='recovery-option-checkbox']")).click();
 	    
 	    Thread.sleep(5000);
@@ -216,13 +213,13 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 	    //Terms & conditions 
 	    
 	    driver.findElement(By.xpath("//*[@id='tc-agreement-checkbox']")).click();
-	    OhioIdOTPTest.captureName(driver,"Terms and Conditions");
+	   
 	    logger.info("***** Accepting Terms and Conditions ****");
 	    JavascriptExecutor js4 = (JavascriptExecutor) driver;
 	    js4.executeScript("window.scrollBy(0,350)", "");
 	    Thread.sleep(3000);
 	    
-	    OhioIdOTPTest.captureName(driver,"Captcha Question");
+	   // OhioIdOTPTest.captureName(driver,"Captcha Question");
 	    logger.info("***** Captcha is verified ****");
 	    
 	    
@@ -292,16 +289,16 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 		
 	    	
 		Thread.sleep(15000);
-		if(driver.findElement(By.xpath("//h2[contains(text(),'Created')]")).isDisplayed())
+		if(driver.findElement(By.xpath("//h2[contains(text(),'Check your Email')]")).isDisplayed()==true)
 		{
-			System.out.println("Account not created, Try again");
+			System.out.println("Account created, Try to login");
 			OhioIdOTPTest.captureName(driver,"Status of account creation");
-			logger.info("***** Account not created  ****");
+			logger.info("***** Account created, Please try to login now  ****");
 		}
 		else 
 		{
-			System.out.println("Account created, Try to Login again");
-			logger.info("***** Account created , Please try to login now  ****");
+			System.out.println("Account not created, Try again");
+			logger.info("***** Account not created , Please try again****");
 			OhioIdOTPTest.captureName(driver,"Status of account creation");
 		}
 		
@@ -311,10 +308,10 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 		//Login
 		driver.get("https://ohid.ohio.gov/wps/portal/gov/ohid/");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id='loginUserID']")).sendKeys(userName);
+		driver.findElement(By.xpath("//*[@id='loginUserID']")).sendKeys(p.getProperty("userName"));
 		driver.findElement(By.xpath("//*[@id='loginPassword']")).sendKeys(password);
 		
-		OhioIdOTPTest.captureName(driver,"Login");
+		//OhioIdOTPTest.captureName(driver,"Login");
 		logger.info("***** Logged in to the account  ****");
 		driver.findElement(By.xpath("//*[@id='loginSubmit']")).click();	
 		
@@ -322,7 +319,7 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 		
 		driver.getTitle();
 		Thread.sleep(2000);
-		OhioIdOTPTest.captureName(driver,"Verify UserLoginPage");
+		//OhioIdOTPTest.captureName(driver,"Verify UserLoginPage");
 		logger.info("***** Account Verified  ****");
 		
 		
@@ -346,7 +343,7 @@ driver.findElement(By.xpath("//*[@id='create-account-next']")).click();*/
 		WebElement logout = driver.findElement(By.xpath("//a[text()='Log Out']"));
 		Actions s = new Actions(driver);
 		s.moveToElement(target).click().perform();
-		OhioIdOTPTest.captureName(driver,"Log Out");
+		//OhioIdOTPTest.captureName(driver,"Log Out");
 		logger.info("***** Logging out  ****");
 		s.moveToElement(logout).click().perform();
 		

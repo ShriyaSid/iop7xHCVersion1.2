@@ -45,8 +45,8 @@ public class AccountLoginTest extends CreateCitizenAccount implements ITestListe
 	  			driver.manage().deleteAllCookies();
 	  			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  		
-	  		System.out.println(super.userName);
-	  		driver.findElement(By.xpath("//*[@id='loginUserID']")).sendKeys(super.userName);
+	  		//System.out.println(super.userName);
+	  		driver.findElement(By.xpath("//*[@id='loginUserID']")).sendKeys();
 	  		driver.findElement(By.xpath("//*[@id='loginPassword']")).sendKeys(super.password);
 	  		
 	  		OhioIdOTPTest.captureName(driver,"Login");

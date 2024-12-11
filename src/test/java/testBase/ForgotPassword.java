@@ -41,20 +41,23 @@ public class ForgotPassword extends TestBase implements ITestListener{
 			{
 			
 				
-			OhioIdOTPTest.captureName(driver,"Forgot username or password");
+			//OhioIdOTPTest.captureName(driver,"Forgot username or password");
+			logger.info("***** Clicking on Forgot your OHID or Password link ****");
 			driver.findElement(By.linkText("Forgot your OHID or password?")).click();
 	        Thread.sleep(3000);
 			
 			driver.getTitle();
+			logger.info("***** chatbot opens  ****");
 			OhioIdOTPTest.captureName(driver,"Account Recovery - Choose your option");
 			Thread.sleep(3000);
 			
 			//Choose your option -Forgot Password
 			OhioIdOTPTest.captureName(driver,"Forgot Password");
+			logger.info("***** Choosing Forgot Password option  ****");
 			driver.findElement(By.xpath("//*[@id='chabot-primary-options']/div[2]/button[2]")).click();
 			Thread.sleep(3000);
-			System.out.println(userName);
-			driver.findElement(By.xpath("//input[@id='custom-input-username']")).sendKeys(userName);
+			System.out.println(p.getProperty("userName"));
+			driver.findElement(By.xpath("//input[@id='custom-input-username']")).sendKeys(p.getProperty("userName"));
 			Thread.sleep(2000);
 			
 			
@@ -100,7 +103,7 @@ public class ForgotPassword extends TestBase implements ITestListener{
 				    matcher2.find();
 				    String otp2=matcher2.group(1);
 				   System.out.println(otp2);
-				   OhioIdOTPTest.captureName(driver,"Email OTP-Forgot password");
+				  // OhioIdOTPTest.captureName(driver,"Email OTP-Forgot password");
 			driver.findElement(By.xpath("//*[@id='password-email-pin-first-try']")).sendKeys(otp2);
 			System.out.println(otp2);
 			OhioIdOTPTest.captureName(driver,"Forgot password -OTP Verification");
@@ -108,18 +111,22 @@ public class ForgotPassword extends TestBase implements ITestListener{
 			driver.findElement(By.xpath("//*[@id='password-email-pin-first-attempt']/div[4]/button[1]")).click();
 			
 			//Enter New Password
+			logger.info("***** Entering a New Password ****");
 			String changePassword =randomAlphaNumberic();
 			driver.findElement(By.xpath("//*[@id='new-password']")).sendKeys(changePassword);
 			
 			
 			//Confirm New Password
+			logger.info("***** Confirming new password ****");
 			driver.findElement(By.xpath("//*[@id='confirm-password']")).sendKeys(changePassword);
 			System.out.println("Your New password is "+changePassword );
 			OhioIdOTPTest.captureName(driver,"NewPassword Submission");
+			
 			driver.findElement(By.xpath("//*[@id='reset-password-input']/button")).click();
 			
 			Thread.sleep(4000);
 			OhioIdOTPTest.captureName(driver,"Password successfully changed");
+			logger.info("***** Successfully Changed Password  ****");
 			driver.quit();
 		}
 
