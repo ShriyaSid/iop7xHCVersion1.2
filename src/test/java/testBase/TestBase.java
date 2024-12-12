@@ -26,6 +26,11 @@ import com.google.common.io.Files;
 import org.apache.logging.log4j.LogManager;  //Log4j
 import org.apache.logging.log4j.Logger;  //Log4j
 
+
+/**
+ * @author Shriya Siddarth
+   @version 1.2
+ */
 public class TestBase {
 	
 	public static WebDriver driver;
@@ -122,6 +127,5 @@ public class TestBase {
 		
     }
    
-   
-   
+    
 }

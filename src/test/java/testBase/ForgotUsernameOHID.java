@@ -28,6 +28,12 @@ import com.mailosaur.models.Message;
 import com.mailosaur.models.MessageSearchParams;
 import com.mailosaur.models.SearchCriteria;
 
+
+
+/**
+ * @author Shriya Siddarth
+   @version 1.2
+ */
 public class ForgotUsernameOHID extends TestBase implements ITestListener{
 	
     

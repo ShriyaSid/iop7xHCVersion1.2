@@ -20,6 +20,12 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.OhioIdOTPTest;
 
+
+
+/**
+ * @author Shriya Siddarth
+   @version 1.2
+ */
 public class ExtentReportManager implements ITestListener {
 
 	public ExtentSparkReporter sparkReporter;

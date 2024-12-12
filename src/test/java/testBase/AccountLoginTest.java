@@ -18,6 +18,11 @@ import org.testng.annotations.Test;
 
 import com.google.common.io.Files;
 
+
+/**
+ * @author Shriya Siddarth
+   @version 1.2
+ */
 public class AccountLoginTest extends CreateCitizenAccount implements ITestListener{
 	
 	

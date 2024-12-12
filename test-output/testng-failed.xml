@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="testBase.ExtentReportManager"/>
-  </listeners>
-  <test thread-count="5" name="CitizenAccountHCTest(failed)">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
     <classes>
-      <class name="testBase.ForgotPassword">
-        <methods>
-          <include name="setup"/>
-          <include name="checkForgotPassword"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testBase.ForgotPassword -->
-      <class name="testBase.ForgotUsernameOHID">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="checkForgotUsernameOHID"/>
-        </methods>
-      </class> <!-- testBase.ForgotUsernameOHID -->
       <class name="testBase.CreateCitizenAccount">
         <methods>
           <include name="setup"/>
@@ -29,5 +11,5 @@
         </methods>
       </class> <!-- testBase.CreateCitizenAccount -->
     </classes>
-  </test> <!-- CitizenAccountHCTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -182,3 +182,48 @@
 2024-12-11 09:32:17 INFO  ForgotPassword:45 - ***** Clicking on Forgot your OHID or Password link ****
 2024-12-11 09:32:22 INFO  ForgotPassword:50 - ***** chatbot opens  ****
 2024-12-11 09:32:26 INFO  ForgotPassword:56 - ***** Choosing Forgot Password option  ****
+2024-12-11 16:39:17 INFO  Utils:112 - [TestNG] Running:
+  Command line suite
+
+2024-12-11 16:41:48 INFO  Utils:112 - [TestNG] Running:
+  Command line suite
+
+2024-12-11 16:44:04 INFO  Utils:112 - [TestNG] Running:
+  Command line suite
+
+2024-12-11 16:45:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-11 16:46:08 INFO  CreateCitizenAccount:59 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-11 16:46:08 INFO  CreateCitizenAccount:64 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-11 16:46:36 INFO  CreateCitizenAccount:117 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-11 16:46:36 INFO  CreateCitizenAccount:122 - ***** OTP is verified ****
+2024-12-11 20:42:39 INFO  Utils:112 - [TestNG] Running:
+  Command line suite
+
+2024-12-11 20:53:50 INFO  Utils:112 - [TestNG] Running:
+  Command line suite
+
+2024-12-11 20:58:01 INFO  CreateCitizenAccount:59 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-11 20:58:01 INFO  CreateCitizenAccount:64 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
+2024-12-11 20:58:16 INFO  CreateCitizenAccount:117 - ***** OTP Verification - Fetching the OTP from mailosaur account  ****
+2024-12-11 20:58:16 INFO  CreateCitizenAccount:122 - ***** OTP is verified ****
+2024-12-11 20:58:20 INFO  CreateCitizenAccount:138 - ***** Entering personal info  ****
+2024-12-11 20:58:28 INFO  CreateCitizenAccount:150 - ***** Entering username  ****
+2024-12-11 20:58:30 INFO  CreateCitizenAccount:155 - ***** Entering Password  ****
+2024-12-11 20:58:49 INFO  CreateCitizenAccount:221 - ***** Accepting Terms and Conditions ****
+2024-12-11 20:58:52 INFO  CreateCitizenAccount:227 - ***** Captcha is verified ****
+2024-12-11 20:59:06 INFO  CreateCitizenAccount:290 - ***** Create Account button is enabled  ****
+2024-12-11 20:59:21 INFO  CreateCitizenAccount:305 - ***** Account not created , Please try again****
+2024-12-11 20:59:34 INFO  CreateCitizenAccount:319 - ***** Logged in to the account  ****
+2024-12-11 20:59:43 INFO  CreateCitizenAccount:327 - ***** Account Verified  ****
+2024-12-11 21:00:01 INFO  ForgotUsernameOHID:44 - ***** Clicking on Forgot your OHID or password option  ****
+2024-12-11 21:00:09 INFO  ForgotUsernameOHID:54 - ***** Choosing Forgot OHIO ID option ****
+2024-12-11 21:00:27 INFO  ForgotPassword:45 - ***** Clicking on Forgot your OHID or Password link ****
+2024-12-11 21:00:31 INFO  ForgotPassword:50 - ***** chatbot opens  ****
+2024-12-11 21:00:34 INFO  ForgotPassword:56 - ***** Choosing Forgot Password option  ****
+2024-12-11 21:11:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rbalasubramanians\eclipse-workspace\iop7xHCVersion1.2\testng.xml
+
+2024-12-11 21:11:13 INFO  CreateCitizenAccount:59 - ***** Starting the first step of health check - Creating OHID Account ****
+2024-12-11 21:11:13 INFO  CreateCitizenAccount:64 - ***** Launching Homepage and clicking on CreateOHID Account Button  ****
